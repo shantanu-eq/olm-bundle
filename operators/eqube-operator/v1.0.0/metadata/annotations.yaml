@@ -8,3 +8,4 @@ annotations:
   com.redhat.openshift.versions: "v4.13-v4.16"
   operators.operatorframework.io.test.config.v1: tests/scorecard/
   operators.operatorframework.io.test.mediatype.v1: scorecard+v1
+  
