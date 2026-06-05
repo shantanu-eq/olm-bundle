@@ -1,5 +1,6 @@
 organization: certified-operators
 index_image:
+  repository: docker.io/saurabh1eq/eq-operator
   pending_repository: docker.io/saurabh1eq/eq-operator
   published_repository: ""
   public_repository_mirror: ""
