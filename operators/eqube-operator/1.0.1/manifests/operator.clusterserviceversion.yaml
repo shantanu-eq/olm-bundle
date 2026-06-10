@@ -1,7 +1,7 @@
 apiVersion: operators.coreos.com/v1alpha1
 kind: ClusterServiceVersion
 metadata:
-  name: eqube-operator.v1.0.0
+  name: eqube-operator.v1.0.1
   annotations:
     alm-examples: |-
       [
@@ -50,7 +50,8 @@ spec:
     specializing in data integration, analytics, and digital transformation. Its
     eQube®-DaaS platform enables enterprises to connect, migrate, and analyze
     data across complex systems, driving visibility and operational efficiency.
-  version: 1.0.0
+  version: 1.0.1
+  replaces: eqube-operator.v1.0.0
   maturity: alpha
   minKubeVersion: 1.26.0
   provider:
