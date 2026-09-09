@@ -9,7 +9,7 @@ LABEL operators.operatorframework.io.bundle.channel.default.v1=stable
 LABEL operators.operatorframework.io.bundle.tests.v1: tests/
 LABEL operators.operatorframework.io.test.config.v1=tests/scorecard/
 LABEL operators.operatorframework.io.test.mediatype.v1=scorecard+v1
-LABEL com.redhat.openshift.versions="v4.13-v4.16"
+LABEL com.redhat.openshift.versions="v4.13-v4.22"
 
 COPY olmbundle/manifests /manifests
 COPY olmbundle/metadata /metadata
